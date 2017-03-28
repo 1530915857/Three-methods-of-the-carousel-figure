@@ -1,0 +1,50 @@
+@charset "utf_8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#warp{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin: 100px auto;
+//  overflow: hidden;
+    #left{
+        position: absolute;
+        width: 68px;
+        height: 68px;
+        left: -68px;
+        top: 66px;
+        font-size: 64px;
+        color: #000000;
+    }
+    #right{
+        position: absolute;
+        width: 68px;
+        height: 68px;
+        left: 812px;
+        top: 66px;
+        font-size: 64px;
+        color: #000000;
+    }
+    #main{
+        width: 800px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        ul{
+            width: 1600px;
+            height: 200px;
+            position: absolute;
+            li{
+                float: left;
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+    
+}

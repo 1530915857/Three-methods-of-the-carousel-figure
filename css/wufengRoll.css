@@ -1,0 +1,48 @@
+@charset "utf_8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#warp {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  margin: 100px auto;
+}
+#warp #left {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: -68px;
+  top: 66px;
+  font-size: 64px;
+  color: #000000;
+}
+#warp #right {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 812px;
+  top: 66px;
+  font-size: 64px;
+  color: #000000;
+}
+#warp #main {
+  width: 800px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+#warp #main ul {
+  width: 1600px;
+  height: 200px;
+  position: absolute;
+}
+#warp #main ul li {
+  float: left;
+}
+#warp #main ul li img {
+  width: 200px;
+  height: 200px;
+}
